@@ -40,4 +40,13 @@ class SortStringTest {
 		System.out.println(chainSorted);
 		assertTrue(chainSorted.contentEquals("1234567788899"));
 	}
+	
+	@Test
+	void testSortStringApiStream() {
+		String chainToSort = "Jose Vicenste Ayala Luna";
+		SortString sortString = new SortString();
+		String chainSorted = sortString.sortStringApiStream(chainToSort);
+		System.out.println(chainSorted);
+		assertTrue(chainSorted.contentEquals("   AJLVaaaceeeilnnosstuy"));
+	}	
 }

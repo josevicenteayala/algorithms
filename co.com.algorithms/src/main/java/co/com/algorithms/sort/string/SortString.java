@@ -11,6 +11,10 @@ public class SortString {
 		return sorted;
 	}
 	
+	public String sortStringApiStream(String chainToSort) {
+		return chainToSort.chars().sorted().collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append).toString();
+	}
+	
 	public String cleanText(String stringToClean) {
 		String stringCleaned = stringToClean.replaceAll("\\s+", "").toString().toLowerCase();
 		return stringCleaned;
