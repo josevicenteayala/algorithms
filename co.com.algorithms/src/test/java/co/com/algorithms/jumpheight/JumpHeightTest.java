@@ -1,8 +1,10 @@
-package com.test.solution.jumpheight;
+package co.com.algorithms.jumpheight;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+
+import co.com.algorithms.jumpheight.JumpHeight;
 
 public class JumpHeightTest {
 

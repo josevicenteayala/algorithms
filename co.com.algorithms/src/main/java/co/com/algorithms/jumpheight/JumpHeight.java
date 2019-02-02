@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.test.solution.jumpheight;
+package co.com.algorithms.jumpheight;
 
 import java.util.Arrays;
 

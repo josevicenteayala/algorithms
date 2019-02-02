@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.test.solution.readbook;
+package co.com.algorithms.readbook;
 
 /**
  * @author vin00

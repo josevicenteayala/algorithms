@@ -1,4 +1,4 @@
-package com.test.solution;
+package co.com.algorithms.solution;
 
 import java.io.*;
 import java.math.*;
